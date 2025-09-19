@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    {% include scripts.html %}
+    
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="100"/></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.shortname }}</a></h1>
+            <div class="site-description">
+              <p style="margin:0">A workshop offered by the eScience Institute at the University of Washington</p>
+              <p style="margin:0;font-size:11px">Monday, Oct. 27&ndash;30, 2025, 9:00am-noon, WRF Data Science Studio</p>
+              </div>
+          </div>
+
+          <nav style="font-size:8pt">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/program">Program</a>
+            <a href="{{ site.baseurl }}/instructors">Instructors</a>
+            <a href="{{ site.baseurl }}/register">Register</a>
+            <a href="{{ site.baseurl }}/prep">Preparing</a>
+            <a href="{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <p> <center>
+          This workshop is a 4-day course on introductory machine learning methods for
+          structured data. No credit or certification is offered to participants.</center></p>
+      <p> <center>
+          <img src="{{ site.baseurl }}/images/escience-logo.png" height="40"/>
+          </center></p>
+      <p> <center>
+          <img src="{{ site.baseurl }}/images/washington-logo.png" height="40"/>
+          </center></p>
+      <!--
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      -->
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
