@@ -48,7 +48,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://noahbenson.github.io
+url: http://uwescience.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -57,7 +57,7 @@ url: http://noahbenson.github.io
 baseurl: "/ai-abcs_2025-10-27"
 
 # The github repository url
-githuburl: https://github.com/noahbenson/ai-abcs_2025-10-27
+githuburl: https://github.com/uwescience/ai-abcs_2025-10-27
 
 #
 # !! You don't need to change any of the configuration flags below !!
