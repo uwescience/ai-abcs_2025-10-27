@@ -1,3 +1,40 @@
+## What is the "A.I. ABCs"?
+
+The A.I. ABCs is a workshop that teaches surveys the many AI/ML tools available
+for analyzing structured data. The workshop is targeted at researchers with
+some programming experience but modest exposure to advanced math, stats, and
+computation.
+
+---
+
+## Who is the intended audience?
+
+This workshop is intended for researchers at all levels including students,
+post-docs, and principal investigators. Participants are expected to have some
+experience with the following tools:
+* **Python**. Advanced knowledge is not required, but at a minimum students
+  should be comfortable with Python syntax and familiar with NumPy and
+  Pandas. Participants can learn these skills from resources on the
+  [preparation page]({{ site.baseurl }}/prep).
+* **git/GitHub**. Expertise with git is not required, but you must have git
+  installed, and you should be familiar with basic git commands.
+* **Docker**. Expertise with Docker is not required, but you must have Docker
+  installed.
+
+No advanced mathematical, statistical, or computational training is required
+for the course, which will focus on high-level explanations and intuitive
+demonstrations rather than theory. Some knowledge of linear algebra is helpful
+but not required.
+
+---
+
+## Lesson Repository
+
+The [GitHub repository](https://github.com/noahbenson/AI-ABCs) for the workshop
+can be used to run the demonstrations and tutorials.
+
+---
+
 ## About this Workshop
 
 Around the turn of the millenium, computational methods began to gain real
@@ -37,31 +74,3 @@ that already exist in the AI/ML space.
 Please see the [Program]({{ site.baseurl }}/program) for more information on
 topics that will be covered in the workshop. Please [Register]({{ site.baseurl
 }}/register) if you wish to attend.
-
----
-
-## Who is the intended audience?
-
-This workshop is intended for researchers at all levels including students,
-post-docs, and principal investigators. Participants are expected to have some
-experience with the following tools:
-* **Python**. Advanced knowledge is not required, but at a minimum students
-  should be comfortable with Python syntax and familiar with NumPy and
-  Pandas. Participants can learn these skills from resources on the
-  [preparation page]({{ site.baseurl }}/prep).
-* **git/GitHub**. Expertise with git is not required, but you must have git
-  installed, and you should be familiar with basic git commands.
-* **Docker**. Expertise with Docker is not required, but you must have Docker
-  installed.
-
-No advanced mathematical, statistical, or computational training is required
-for the course, which will focus on high-level explanations and intuitive
-demonstrations rather than theory. Some knowledge of linear algebra is helpful
-but not required.
-
----
-
-## Lesson Repository
-
-The [GitHub repository](https://github.com/noahbenson/AI-ABCs) for the workshop
-can be used to run the demonstrations and tutorials.
