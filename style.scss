@@ -31,14 +31,14 @@ body b, body strong {
 }
 
 .container {
-  width: 100%;
-  background: #D7C896;
-}
-.titletable {
   margin: 0 auto;
   padding: 0 10px;  
   max-width: 740px;
   width: 100%;
+}
+.headcontainer {
+  width: 100%;
+  background: #D7C896;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -231,9 +231,9 @@ img {
 
 nav {
   float: right;
-  /*margin-top: 23px; // @TODO: Vertically middle align*/
+  margin-top: 10px;
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 12pt;
   background-color: #DFDDE8;
   border-top: 2px solid #39275B;
   border-bottom: 2px solid #39275B;
@@ -249,10 +249,10 @@ nav {
   a {
     margin-left: 10px;
     margin-right: 10px;
-    /* color: $darkGray; */
     color: #39275B;
     text-align: right;
     font-weight: 300;
+    font-size: 12pt;
     letter-spacing: 1px;
     vertical-align: middle;
 
