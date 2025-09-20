@@ -31,9 +31,13 @@ body b, body strong {
 }
 
 .container {
+  width: 100%;
+  background: #D7C896;
+}
+.titletable {
   margin: 0 auto;
+  padding: 0 10px;  
   max-width: 740px;
-  padding: 0 10px;
   width: 100%;
 }
 
@@ -143,8 +147,9 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
+/* Nicolas Gallagher's micro clearfix hack
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ */
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -159,14 +164,13 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
+/*
+ * .masthead
+ */
 
 .wrapper-masthead {
   margin-bottom: 50px;
   width: 100%;
-  background: #D7C896;
 }
 
 .masthead {
@@ -227,7 +231,7 @@ img {
 
 nav {
   float: right;
-  //margin-top: 23px; // @TODO: Vertically middle align
+  /*margin-top: 23px; // @TODO: Vertically middle align*/
   font-family: $helveticaNeue;
   font-size: 18px;
   background-color: #DFDDE8;
@@ -259,9 +263,9 @@ nav {
   }
 }
 
-//
-// .main
-//
+/*
+ * .main
+ */
 
 .posts > .post {
   padding-bottom: 2em;
@@ -327,7 +331,8 @@ footer {
    font-size: 18px;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+/* Settled on moving the import of syntax highlighting to the bottom of the CSS
+ * ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+ */
 @import "highlights";
 @import "svg-icons";
