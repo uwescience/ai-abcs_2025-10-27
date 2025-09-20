@@ -238,6 +238,8 @@ nav {
   border-top: 2px solid #39275B;
   border-bottom: 2px solid #39275B;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
 
   @include mobile {
     float: none;
@@ -300,6 +302,7 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #39275B;
+  padding-bottom: 10px;
   /*border-bottom: 1px solid #ddd;*/
   /* background-color: $lightGray; */
   background-color: #DFDDE8;
