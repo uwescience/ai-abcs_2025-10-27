@@ -18,18 +18,25 @@ novices to these tools are welcome to register.
 ### Setup Instructions
 You must bring a laptop to the course (not a tablet or chromebook), and you
 must install a few pieces of software on it:
-* [Install Docker](https://www.docker.com/get-started/). Docker is a virtual
-  machine tool that is used in the workshop. The link includes instructions for
-  all major operating systems.
-* [Install a Shell/Terminal](https://carpentries.github.io/workshop-template/install_instructions/#shell).
-* [Install Git](https://carpentries.github.io/workshop-template/install_instructions/#git).
+* **Docker**. Docker is a virtual machine tool that is used in the
+  workshop. Installation instructions for all major operating systems can be
+  found [here](https://www.docker.com/get-started/).
+* **A Unix Shell/Terminal**. Window's command prompt/`CMD.EXE` will not
+  suffice. See [these instructions](
+  https://carpentries.github.io/workshop-template/install_instructions/#shell)
+  for Windows, Mac, and Linux.
+* **Git**. See [these instructions](
+  https://carpentries.github.io/workshop-template/install_instructions/#git)
+  for Windows, Mac, and Linux.
 
-You cannot complete the registration process without this software installed.
+**You cannot complete the registration process without this software
+installed.**
 
 
 ## How to Register
 
-Registration fees are $10.
+Registration fees are $10. Once registration is open, an Eventbrite widget will
+be visible below.
 
 <div id="eventbrite-widget-container-{{site.eventbrite}}"></div>
 
