@@ -17,8 +17,12 @@ novices to these tools are welcome to register.
 
 ### Setup Instructions
 You must bring a laptop to the course (not a tablet or chromebook), and you
-must [install git](https://github.com/git-guides/install-git) and [install
-Docker](https://www.docker.com/get-started/) on that laptop.
+must install a few pieces of software on it:
+* [Install Docker](https://www.docker.com/get-started/). Docker is a virtual
+  machine tool that is used in the workshop. The link includes instructions for
+  all major operating systems.
+* [Install a Shell/Terminal](https://carpentries.github.io/workshop-template/install_instructions/#shell).
+* [Install Git](https://carpentries.github.io/workshop-template/install_instructions/#git).
 
 You cannot complete the registration process without this software installed.
 
