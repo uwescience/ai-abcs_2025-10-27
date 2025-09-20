@@ -226,12 +226,13 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  //margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
   background-color: #DFDDE8;
   border-top: 2px solid #39275B;
   border-bottom: 2px solid #39275B;
+  vertical-align: middle;
 
   @include mobile {
     float: none;
@@ -241,12 +242,14 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     /* color: $darkGray; */
     color: #39275B;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    vertical-align: middle;
 
     @include mobile {
       margin: 0 10px;
