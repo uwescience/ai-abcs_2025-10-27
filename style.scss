@@ -1,15 +1,15 @@
 ---
 ---
 
-//
-// IMPORTS
-//
+/*
+ * IMPORTS
+ */
 
 @import "{{ site.theme }}";
 
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
+/* Syntax highlighting @import is at the bottom of this file */
 
 /**************/
 /* BASE RULES */
@@ -127,7 +127,7 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
+/* Fixes images in popup boxes from Google Translate */
 .gmnoprint img {
   max-width: none;
 }
@@ -137,7 +137,7 @@ img {
   color: $gray;
 }
 
-// Specify the color of the selection
+/* Specify the color of the selection */
 ::-moz-selection {
   color: $black;
   background: $lightGray;
