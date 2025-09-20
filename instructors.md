@@ -4,7 +4,7 @@
   <table style="width:100%">
     <tr>
       <td class="speaker-image-left">
-        <img src="{{site.baseurl}}/images/nbenson.png" width="175"/>
+        <img src="https://escience.washington.edu/wp-content/uploads/2022/09/Noah-Benson.png" width="175"/>
         </td>
       <td class="speaker-bio">
         <p class="hbio"><a href="https://nben.net/">Noah C. Benson</a></p>

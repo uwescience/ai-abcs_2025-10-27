@@ -19,26 +19,37 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
+      <div class="headcontainer">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" width="100"/></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.shortname }}</a></h1>
-            <div class="site-description">
-              <p style="margin:0">A workshop offered by the eScience Institute at the University of Washington</p>
-              <p style="margin:0;font-size:11px">Monday, Oct. 27&ndash;30, 2025, 9:00am-noon, WRF Data Science Studio</p>
-              </div>
-          </div>
-
-          <nav style="font-size:10pt">
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/program">Program</a>
-            <a href="{{ site.baseurl }}/instructors">Instructors</a>
-            <a href="{{ site.baseurl }}/register">Register</a>
-            <a href="{{ site.baseurl }}/prep">Preparing</a>
-            <a href="{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
-          </nav>
+          <center>
+            <table border="0" cellpadding="0" style="margin-bottom: 10px;">
+              <tr>
+                <td style="width: 130px; vertical-align: middle;">
+                  <a href="{{ site.baseurl }}/" style="vertical-align: middle;">
+                    <img src="{{ site.avatar }}"
+                         style="width: 100%; vertical-align: middle;"/></a></td>
+                <td style="vertical-align: middle; padding-left: 20px;">
+                  <div class="site-info" style="vertical-align: middle;">
+                    <!-- <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.shortname }}</a></h1> -->
+                    <div class="site-description; vertical-align: middle;">
+                      <p style="margin:0; font-size:24pt; font-weight:400; color:#39275B">
+                        An AI/ML Workshop for Beginners</p>
+                      <p style="margin:0; font-size:14pt">
+                        Offered by the <a href="https://escience.washington.edu/">eScience Institute</a>
+                        at the <a href="https://washington.edu/">University of Washington</a></p>
+                      <p style="margin:0; font-size:14pt">
+                        Oct. 27&ndash;30 (Mon.&ndash;Thu.), 2025, 9:00am-noon,
+                        <a href="https://escience.washington.edu/about/wrf-data-science-studio/">
+                          WRF Data Science Studio</a></p></div></div></td></tr></table>
+            <nav style="font-size:12pt; background-color:#DFDDE8; width:100%;height:55px; border-bottom:1px solid #39275B; border-top:1px solid #39275B;">
+              <a style="color:#39275B;" href="{{ site.baseurl }}/">Home</a>
+              <a style="color:#39275B;" href="{{ site.baseurl }}/program">Program</a>
+              <a style="color:#39275B;" href="{{ site.baseurl }}/instructors">Instructors</a>
+              <a style="color:#39275B;" href="{{ site.baseurl }}/register">Register</a>
+              <a style="color:#39275B;" href="{{ site.baseurl }}/prep">Preparing</a>
+              <a style="color:#39275B;" href="{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+            </nav>
+          </center>
         </header>
       </div>
     </div>
@@ -48,7 +59,7 @@
     </div>
 
     <div class="wrapper-footer">
-      <p> <center>
+      <p style="font-size:10pt"> <center>
           This workshop is a 4-day course on introductory machine learning methods for
           structured data. No credit or certification is offered to participants.</center></p>
       <p> <center>
